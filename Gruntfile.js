@@ -7,15 +7,15 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
       options: {
-        compress: true,
+        compress: {},
         mangle: {
           except: ['jQuery', 'angular']
         }
       },
       build: {
-        files: [
+        files: {
           'www/js/main.min.js': [ 'www/js/main.js' ]
-        ]
+        }
       }
     },
   });

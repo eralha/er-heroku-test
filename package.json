@@ -2,8 +2,6 @@
   "name": "er-heroku-test",
   "version": "0.1.0",
   "main" : "web.js",
-  "scripts": {
-  },
   "devDependencies": {
     "express": "^4.9.8",
     "grunt": "^0.4.5",

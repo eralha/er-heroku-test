@@ -2,6 +2,7 @@
   "name": "er-heroku-test",
   "version": "0.1.0",
   "scripts": {
+    "postinstall": "grunt",
     "start": "node web.js"
   },
   "devDependencies": {
